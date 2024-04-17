@@ -1,0 +1,49 @@
+.bestsales-heading{
+    background-color: rgb(219, 235, 241); 
+    height: 1450px;
+    padding-top: 50px;
+    
+}
+
+.bestsales-layout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+
+}
+.bestsales-image img{
+    width: 200px;
+     height: 200px;
+     align-items: center;
+     
+}
+.bestsales-card{
+    width: 300px;
+    height: 420px;
+    padding: 20px;
+    border: 1px solid rgb(226, 221, 221);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+    
+}
+
+.bestsales-details p:nth-child(1){
+    font-weight: bold;
+    text-align: left;
+    color: black;
+    text-decoration: "none";
+}
+.bestsales-details p:nth-child(2){
+    font-weight: bold;
+    font-size: x-large;
+    text-align: left;
+
+}
+.bestsales-card:hover{
+    box-shadow: 0 2px 10px 2px black;
+    cursor: pointer;
+}
+.bestsales-details{
+    text-align: left;
+}

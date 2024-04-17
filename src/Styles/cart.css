@@ -1,0 +1,18 @@
+.cart-layout{
+    margin-top: 55px;
+    
+}
+.cart-row-layout{
+    margin-top: 50px;
+}
+.cart-left-part{
+    background-color: white;
+    
+}
+.cart-left-part-row{
+    border: 1px solid rgb(165, 34, 34);
+}
+.cart-right-part{
+    background-color: white;
+    border-left: 1px solid black;
+}

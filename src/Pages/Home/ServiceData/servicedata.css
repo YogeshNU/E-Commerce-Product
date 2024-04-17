@@ -1,0 +1,14 @@
+.servicedata-card{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    padding: 40px;
+    height: 300px;
+   
+}
+.servicedata-card{
+    height: 200px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-bottom: 40px;
+}

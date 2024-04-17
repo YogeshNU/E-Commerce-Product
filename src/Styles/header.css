@@ -1,0 +1,47 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    box-shadow: 0 0px 10px -2px black;
+    vertical-align: middle;
+    align-items:center;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #9b93e2;
+    
+}
+.first-header{
+    display: flex;
+    gap: 50px;
+  
+}
+
+.first-header p{
+    font-weight: 600;
+    
+}
+.last-header p{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+.last-header{
+    display: flex;
+    gap: 50px;
+    padding-left: 380px;
+    
+}
+.cart-top span:nth-child(2){
+    background-color: red;
+    display: flex;
+    width: 20px;
+    height: 18px;
+    border-radius: 50%;
+    align-items: center;
+    position: fixed;
+    top: 8px;
+    justify-content: center;
+    right: 155px;
+}

@@ -1,0 +1,68 @@
+.heading{
+    background-color: rgb(219, 235, 241); 
+    height: 1000px;
+    padding-top: 50px;
+    
+}
+
+section{
+    
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    background-color: rgb(219, 235, 241);
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+.cards{
+    width: 300px;
+    height: 420px;
+    padding: 20px;
+    border: 1px solid rgb(226, 221, 221);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: white;
+}
+.cards:hover{
+    box-shadow: 0 2px 10px 2px black;
+    cursor: pointer;
+}
+.image_box img{
+     width: 200px;
+     height: 200px;
+     align-items: center;
+}
+.image_box p{
+    background-color: rgb(14, 14, 87);
+    color: white;
+    border-radius: 15px;
+    width: 65px;
+   
+}
+.details p:nth-child(1){
+    font-weight: bold;
+    text-align: left;
+    color: black;
+}
+.bigdiscount-detail-p2{
+    font-weight: bold;
+    font-size: x-large;
+    text-align: left;
+    color: black;
+
+}
+.bigdiscount-detail-last-part{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.bigdiscount-detail-last-part button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+   
+}
